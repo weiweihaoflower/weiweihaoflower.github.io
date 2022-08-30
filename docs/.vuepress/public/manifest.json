@@ -1,10 +1,10 @@
 {
-  "name": "君哥聊編程",
-  "short_name": "君哥",
+  "name": "文海鸥聊前端",
+  "short_name": "文海鸥",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#2196f3",
-  "description": "君哥聊編程主页",
+  "description": "文海鸥聊前端",
   "theme_color": "blue",
   "icons": [
     {

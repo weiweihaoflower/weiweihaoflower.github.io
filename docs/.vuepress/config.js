@@ -5,10 +5,10 @@ const pluginsConf = require('./config/plugins/index')
 module.exports = {
     //注意，此处需要填写你部署在nginx下的文件夹名称，如果是根目录，那么可以注释掉此行，注释掉后本地打开index.html无法访问
     //base: "/dist/",
-    title: "文海鸥的个人小站",
-    description: '我的技术分享',
+    title: "文海鸥博客网站",
+    description: '专注于技术分享',
     dest: './dist',
-    port: '7777',
+    port: '9000',
     head: [
         ['link', { rel: 'icon', href: '/img/favicon.ico' }],
 		['meta', { name: 'keywords', content: '文海鸥聊编程,vuepress,个人博客,文海鸥' }],
@@ -36,28 +36,30 @@ module.exports = {
         type: 'blog',
         smoothScroll: true,
         // 博客设置
-		/*
         blogConfig: {
-            category: {
-                location: 2, // 在导航栏菜单中所占的位置，默认2
-                text: '分类' // 默认 “分类”
-            },
+            // category: {
+            //     location: 2, // 在导航栏菜单中所占的位置，默认2
+            //     text: '分类' // 默认 “分类”
+            // },
             tag: {
                 location: 3, // 在导航栏菜单中所占的位置，默认3
                 text: '标签' // 默认 “标签”
             }
-        },*/
-        /*
-        valineConfig: {
-            // your appId
-            appId: 'AwhnPnTxxzGzoHsz',
-            // your appKey
-            appKey: '0M6f1PazzzalVIukU',
-            recordIP:true,
-            placeholder:'来都来了，冒个泡再走呗...',
-            visitor:true,
         },
-        */
+
+
+        // 评论qu
+        // valineConfig: {
+        //     // your appId
+        //     appId: 'AwhnPnTxxzGzoHsz',
+        //     // your appKey
+        //     appKey: '0M6f1PazzzalVIukU',
+        //     recordIP:true,
+        //     placeholder:'来都来了，冒个泡再走呗...',
+        //     visitor:true,
+        // },
+
+
         authorAvatar: '/avatar.png',
         // 最后更新时间
         lastUpdated: '2021-04-07', // string | boolean
@@ -82,10 +84,10 @@ module.exports = {
         search: true,
         searchMaxSuggestions: 10,
         // ICP备案
-        record: '沪ICP备xxxxx号-6',
+        record: '陕ICP备xxxxx号-6',
         recordLink: 'https://beian.miit.gov.cn/',
 		// 公网安备备案
-        cyberSecurityRecord: '沪公网安备 xxxxxxx号',
+        cyberSecurityRecord: '陕公网安备 xxxxxxx号',
         cyberSecurityLink: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=xxx05177',
 		//友链
         friendLink: [

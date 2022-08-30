@@ -33,9 +33,9 @@ module.exports = {
     },
     "dynamic-title":{
         showIcon: "/favicon.ico",
-        showText: "(/≧▽≦/)欢迎回来！",
+        showText: "欢迎回来！",
         hideIcon: "/favicon.ico",
-        hideText: "(●—●)哦吼,不要走,给个收藏吧！",
+        hideText: "欢迎进入文海鸥的个人博客",
         recoverTime: 2000
     },
 	'@vuepress/nprogress':{
@@ -59,77 +59,75 @@ module.exports = {
 			type: true
 		},
         audios: [
+
           {
-            name: "大城小事",
-            artist: "杨千嬅",
+            name: "稻香",
+            artist: "周杰伦",
             url:
-              "https://music.163.com/song/media/outer/url?id=316756.mp3",
+              "https://webfs.tx.kugou.com/202208301445/7652c1a7e278f7918483ded89a07babd/v2/8909e1809908cd8e3bf6cf85d98b93f0/part/0/960115/KGTX/CLTX001/clip_8909e1809908cd8e3bf6cf85d98b93f0.mp3",
             cover:
-              "https://p2.music.126.net/qOOTIykbSLw9RHB0vI83GA==/737772302281958.jpg",
+              "https://imgessl.kugou.com/stdmusic/20200909/20200909135350181905.jpg",
           },
           {
-            name: "不再犹豫",
-            artist: "Beyond",
+            name: "青花瓷",
+            artist: "周杰伦",
             url:
-              "https://music.163.com/song/media/outer/url?id=346084.mp3",
+              "https://webfs.ali.kugou.com/202208301453/84d1f1d0f7500008c91088e7b58d8cba/part/0/960131/KGTX/CLTX001/clip_337d5e77aa94aefc88bd1d67544fa0b9.mp3",
             cover:
-              "https://p1.music.126.net/Gxv6d9W4Yd9q9WNHPpi8rw==/1379887104073348.jpg",
+              "this.onerror=null;this.src=https://imgessl.kugou.com/stdmusic/20150720/20150720160716937643.jpg",
           },
           {
-            name: "相思风雨中",
-            artist: "张学友 / 汤宝如",
+            name: "Time Travel",
+            artist: "岸部真明",
             url:
-              "https://music.163.com/song/media/outer/url?id=188555.mp3",
+              "https://webfs.ali.kugou.com/202208301454/ef1eeabdf150bd2357a796cb31758f6f/KGTX/CLTX001/3ed565d9489a73c853d170543e2c80c0.mp3",
             cover:
-              "https://p2.music.126.net/IPnqMCk8YaN9inwYV2bdgQ==/18774161044446693.jpg",
+              "https://imgessl.kugou.com/stdmusic/20210409/20210409165713682223.jpg",
           },
+
           {
-            name: "月半小夜曲",
-            artist: "李克勤",
+            name: "冰河时代",
+            artist: "邓紫棋",
             url:
-              "https://music.163.com/song/media/outer/url?id=115162.mp3",
+              "https://webfs.ali.kugou.com/202208301434/70717cf403e6a3e9095d5f510fab8932/KGTX/CLTX001/af805ee7879c421ee00d196f017a2e60.mp3",
             cover:
-              "https://p2.music.126.net/2oouVh_rHOv1nZXYapF41A==/109951163606358209.jpg",
+              "https://imgessl.kugou.com/stdmusic/20220809/20220809160352403622.jpg",
           },
           {
-            name: "野孩子",
-            artist: "杨千嬅",
+            name: "花",
+            artist: "岸部真明",
             url:
-              "https://music.163.com/song/media/outer/url?id=316486.mp3",
+              "https://webfs.ali.kugou.com/202208301438/5c37781c09d078e0f140c98f8daa8a25/KGTX/CLTX001/88f39176bf355e0a3273179e4d04d972.mp3",
             cover:
-              "https://p2.music.126.net/4TnTRyHqa3-D2H1UnOa00w==/109951163666994621.jpg",
+              "https://imgessl.kugou.com/stdmusic/20150717/20150717124217827383.jpg",
           },
           {
-            name: "她的背影",
-            artist: "王杰",
-            url: "https://music.163.com/song/media/outer/url?id=26026460.mp3",
-            cover:
-              "https://p1.music.126.net/LjXufn3OaIgf8OwaEP_xcQ==/109951164419438501.jpg",
-          },
-          {
-            name: "讲不出再见",
-            artist: "谭咏麟",
+            name: "夜曲",
+            artist: "周杰伦",
             url:
-              "https://music.163.com/song/media/outer/url?id=152392.mp3",
+              "https://webfs.ali.kugou.com/202208301445/71747e410e5472a7d1f2afc50dac11b2/part/0/960121/KGTX/CLTX001/clip_16c8ab298231370293d16bcf9e5ff9b6.mp3",
             cover:
-              "https://p2.music.126.net/LmjTrSwvSLSNBsfFsQFO6g==/2533274793491743.jpg",
+              "this.onerror=null;this.src=https://imgessl.kugou.com/stdmusic/20150720/20150720160716937643.jpg",
           },
           {
-            name: "一生中最爱",
-            artist: "谭咏麟",
+            name: "再见",
+            artist: "邓紫棋",
             url:
-              "https://music.163.com/song/media/outer/url?id=153784.mp3",
+              "https://webfs.ali.kugou.com/202208301440/b25d5d7b4bb3412578f7840c98bf0fbe/KGTX/CLTX001/af805ee7879c421ee00d196f017a2e60.mp3",
             cover:
-              "https://p1.music.126.net/zjQROkEUokU7iS5eUvnVZQ==/3264450027161111.jpg",
+              "https://imgessl.kugou.com/stdmusic/20220711/20220711074007533569.jpg",
           },
           {
-            name: "丑八怪",
-            artist: "薛之谦",
+            name: "一路生化",
+            artist: "温奕心",
             url:
-              "https://music.163.com/song/media/outer/url?id=27808044.mp3",
+              "https://webfs.ali.kugou.com/202208301456/62f2abd7301f127f3623d4673de7c210/KGTX/CLTX001/df0acdd00974c91888e6e8258f23dc70.mp3",
             cover:
-              "https://p2.music.126.net/VjN74c1hoYgPCEZ9DngeQw==/109951163772624643.jpg",
+              "https://imgessl.kugou.com/stdmusic/20211021/20211021094704512813.jpg",
           },
+         
+         
+          
         ],
       },
 	"social-share": //分享插件

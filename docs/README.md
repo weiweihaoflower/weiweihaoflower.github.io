@@ -3,7 +3,7 @@ home: true
 heroText: '热爱编程，热爱音乐'
 bgImage: '/img/55.jpg'
 bgImageStyle: {
-  height: '450px'
+  height: '420px'
 }
 # faceImage: '/head.png'
 # heroImage: '/hero_white.png'

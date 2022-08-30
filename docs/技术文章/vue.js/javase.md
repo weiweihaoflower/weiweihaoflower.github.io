@@ -1,28 +1,26 @@
 ---
-title: 'Java基础'
+title: '用vscode 开发vue3项目是需要安装的插件'
 date: 2100-05-01 12:44:15
 tags:
-- '面向对象'
-- 'JavaSE'
+- 'vscode'
+- 'vue3.0'
 categories:
-- 'java'
+- 'vue3.0'
 ---
 
-::: danger 说明
+::: danger 
 
-这是Java基础的摘要内容，`vuepress`提供的语法块，这部分内容会显示在首页，不信你去首页看看
-
-[点击免费观看教学视频](<https://ke.qq.com/course/5285550>)
+用vscode 开发vue3项目是需要安装的插件
 :::
 
 <!-- more -->
 
+# 用vscode 开发vue3项目是需要安装的插件
+>vue3项目：volar
 
+![在这里插入图片描述](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e195d7698ff540f1b3ea7df1afdc8db9~tplv-k3u1fbpfcp-zoom-1.image)
 
-注意图片在当前文档目录下，URL使用时不可使用绝对路径
+>除 了代码提示外还可以将提供了编辑器快捷分割（将切成两块script style是一块template是一块）和vite预览功能
 
-![1653118922923](./javase.assets/1653118922924.png)
-
-同时建议`typora`设置图片的创建方式如下：
-
-![1653119053628](./javase.assets/1653119053628.png)
+![在这里插入图片描述](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1b019b9c18db4b7ab1483cf9a298ee5f~tplv-k3u1fbpfcp-zoom-1.image)
+![在这里插入图片描述](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1a20a00e795b483aa433fb2b792be9a3~tplv-k3u1fbpfcp-zoom-1.image)
