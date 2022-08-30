@@ -5,17 +5,17 @@ const pluginsConf = require('./config/plugins/index')
 module.exports = {
     //注意，此处需要填写你部署在nginx下的文件夹名称，如果是根目录，那么可以注释掉此行，注释掉后本地打开index.html无法访问
     //base: "/dist/",
-    title: "君哥聊编程",
-    description: '点赞、转发、收藏',
+    title: "文海鸥的个人小站",
+    description: '我的技术分享',
     dest: './dist',
     port: '7777',
     head: [
         ['link', { rel: 'icon', href: '/img/favicon.ico' }],
-		['meta', { name: 'keywords', content: '君哥聊编程,vuepress,自建博客,君哥' }],
-		['meta', { name: 'description', content: '专属于自学者的在线学习平台,这里有编程领域最完善最「体系化的」Java学习视频、如果你是小白快加入我们一起学最全最「体系化的」java知识吧，官方交流QQ群：827553720' }],
+		['meta', { name: 'keywords', content: '文海鸥聊编程,vuepress,个人博客,文海鸥' }],
+		['meta', { name: 'description', content: '前端个人博客网站' }],
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
         ["meta", {name: "robots", content: "all"}],
-        ["meta", {name: "author", content: "君哥"}],
+        ["meta", {name: "author", content: "文海鸥"}],
 		["link", { rel: "stylesheet", href: "/css/style.css" }],//显示nav小logo
 		["script", { charset: "utf-8", src: "/js/custom.js" }],//加载右侧菜单栏图片
         // 百度统计
@@ -69,7 +69,7 @@ module.exports = {
         //editLinks: true,
         //editLinkText: '在 GitHub 上编辑此页！',
         // 作者
-        author: '君哥',
+        author: '文海鸥',
         // 项目开始时间
         startYear: '2022',
         nav: navConf,
@@ -90,13 +90,13 @@ module.exports = {
 		//友链
         friendLink: [
             {
-                title: '君哥聊编程',
+                title: '文海鸥原创音乐酷狗网',
                 desc: 'Enjoy when you can, and endure when you must.',
                 email: 'xxx@qq.com',
                 link: 'https://www.it235.com'
             },
             {
-                title: '君哥的课堂',
+                title: '文海鸥原创音乐网易云',
                 desc: '君哥的课堂',
                 avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
                 link: 'https://how.ke.qq.com/'

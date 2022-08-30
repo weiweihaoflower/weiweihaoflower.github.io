@@ -46,7 +46,7 @@ module.exports = {
 	},
 	'@vuepress-reco/vuepress-plugin-rss':{
 		site_url: "https://it235.com", //网站地址
-        copyright: "君哥聊编程", //版权署名
+        copyright: "文海鸥聊前端", //版权署名
 	},
 	'reading-progress':{
 		//阅读进度条

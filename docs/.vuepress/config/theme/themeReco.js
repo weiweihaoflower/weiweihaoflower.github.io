@@ -15,7 +15,7 @@ module.exports = {
     // 最后更新时间
     lastUpdated: '上次更新时间', // string | boolean
     // 作者
-    author: '君哥',
+    author: '文海鸥',
     // 项目开始时间
     startYear: '2022'
 }

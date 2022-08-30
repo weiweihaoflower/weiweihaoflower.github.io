@@ -1,9 +1,9 @@
 ---
 home: true
-heroText: '粉丝的个人博客'
-bgImage: '/img/5.jpg'
+heroText: '热爱编程，热爱音乐'
+bgImage: '/img/55.jpg'
 bgImageStyle: {
-  height: '350px'
+  height: '450px'
 }
 # faceImage: '/head.png'
 # heroImage: '/hero_white.png'

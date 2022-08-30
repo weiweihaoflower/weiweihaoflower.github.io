@@ -1,37 +1,53 @@
 module.exports = [
     {
-        text: '本站指南', link: '/guide/', icon: 'reco-eye'
+        text: '首页', link: '/', icon: 'reco-eye'
     },
     {
-        text: '技术分享', link: '/技术文章/', icon: 'reco-api',
+        text: '前端技术分类', link: '/技术文章/', icon: 'reco-api',
         items: [
             {
-				text: 'Java',
+				text: 'vue.js',
 				items: [
-					{text: 'JavaSE', link: '/技术文章/java/javase'},
-					{text: 'JavaEE', link: '/技术文章/java高级/javaee'},
+					{text: 'vue2.0', link: '/技术文章/vue2.0/vue2.0'},
+					{text: 'vue3.0', link: '/技术文章/vue3.0/vue3.0'},
 				]
 			},
             {
-				text: '前端',
+				text: 'react.js',
 				items: [
-					{text: '前端基础', link: '/技术文章/vue/vue01'},
+					{text: 'react', link: '/技术文章/react/react'},
 				]
 			},
+            {
+				text: 'three.js',
+				items: [
+					{text: 'three', link: '/技术文章/three/three'},
+				]
+			},
+            {
+				text: 'node.js',
+				items: [
+					{text: 'express', link: '/技术文章/node.js/express'},
+                    {text: 'koa', link: '/技术文章/node.js/koa'},
+				]
+			},
+
         ]
     },
     {
-        text: '生活分享', link: '/生活分享/', icon: 'reco-faq',
+        text: '关于', link: '/guide/', icon: 'reco-eye'
+    },
+    {
+        text: '工具', link: '/工具/', icon: 'reco-faq',
         items: [
 			{text: '生活分享', link: '/生活分享/life'},
         ]
     },
     {
-        text: '博客', icon: 'reco-blog',
+        text: '我的站外博客', icon: 'reco-blog',
         items: [
-            {text: '腾讯', link: 'https://how.ke.qq.com/', icon: 'reco-blog'},
-			{text: 'B站', link: 'https://space.bilibili.com/394702492', icon: 'reco-bilibili'},
-            {text: '君哥', link: 'https://www.it235.com/', icon: 'reco-blog'},
+            {text: '掘金', link: 'https://juejin.cn/user/2542518622493949', icon: 'reco-blog'},
+			{text: 'CSDN', link: 'https://blog.csdn.net/weixin_50379372?spm=1010.2135.3001.5343', icon: 'reco-bilibili'}
         ]
     },/**/
 	{ text: '时间轴', link: '/timeline/', icon: 'reco-date' }
