@@ -11,7 +11,7 @@ module.exports = {
     port: '9000',
     head: [
         ['link', { rel: 'icon', href: '/img/favicon.ico' }],
-		['meta', { name: 'keywords', content: '文海鸥聊编程,vuepress,个人博客,文海鸥' }],
+		['meta', { name: 'keywords', content: '文海鸥博客网站,文海鸥vuepress,文海鸥原创音乐网易云' }],
 		['meta', { name: 'description', content: '前端个人博客网站' }],
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
         ["meta", {name: "robots", content: "all"}],

@@ -36,22 +36,22 @@ Element.prototype.appendChild = function() {
 };
 
 
-var _hrefs = "https://www.aliyun.com/minisite/goods?taskPkg=1111ydsrwb&pkgSid=11811&userCode=goqhbyn3";
-function vueSidebarShow() {
-	var windowWidth = document.body.clientWidth || window.innerWidth;
-	if(windowWidth > 760){
+// var _hrefs = "https://www.aliyun.com/minisite/goods?taskPkg=1111ydsrwb&pkgSid=11811&userCode=goqhbyn3";
+// function vueSidebarShow() {
+// 	var windowWidth = document.body.clientWidth || window.innerWidth;
+// 	if(windowWidth > 760){
 	
-		loadSidebar(_hrefs);
-	}
+// 		loadSidebar(_hrefs);
+// 	}
 
-}
+// }
 
-function loadSidebar(hrefTxt) {	
-	var sidebars = document.getElementsByClassName("sidebar");	var divNode = document.createElement("div");divNode.setAttribute("style" , "text-align: center; padding: 10px;");divNode.innerHTML = '<a href="' + hrefTxt + '" target="_blank"><img src="/img/sidebar_280140.png"></a>';
-	console.log(sidebars)
-	sidebars[0].insertBefore(divNode , sidebars[0].childNodes[0]);
-	var e = document.getElementsByClassName("hide");if(e[1])e[1].remove();
-}
+// function loadSidebar(hrefTxt) {	
+// 	var sidebars = document.getElementsByClassName("sidebar");	var divNode = document.createElement("div");divNode.setAttribute("style" , "text-align: center; padding: 10px;");divNode.innerHTML = '<a href="' + hrefTxt + '" target="_blank"><img src="/img/sidebar_280140.png"></a>';
+// 	console.log(sidebars)
+// 	sidebars[0].insertBefore(divNode , sidebars[0].childNodes[0]);
+// 	var e = document.getElementsByClassName("hide");if(e[1])e[1].remove();
+// }
 
 
 setTimeout("vueSidebarShow()",1000)
