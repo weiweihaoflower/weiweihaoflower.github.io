@@ -36,9 +36,9 @@ module.exports = [
     },
   
     {
-        text: '工具', link: '/工具/', icon: 'reco-faq',
+        text: '工具下载', link: '/工具/', icon: 'reco-faq',
         items: [
-			{text: '生活分享', link: '/生活分享/life'},
+			{text: '工具下载', link: '/工具下载/life'},
         ]
     },
     {

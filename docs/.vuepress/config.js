@@ -84,22 +84,22 @@ module.exports = {
         search: true,
         searchMaxSuggestions: 10,
         // ICP备案
-        record: '陕ICP备xxxxx号-6',
-        recordLink: 'https://beian.miit.gov.cn/',
+        // record: '陕ICP备xxxxx号-6',
+        // recordLink: 'https://beian.miit.gov.cn/',
 		// 公网安备备案
-        cyberSecurityRecord: '陕公网安备 xxxxxxx号',
-        cyberSecurityLink: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=xxx05177',
+        // cyberSecurityRecord: '陕公网安备 xxxxxxx号',
+        // cyberSecurityLink: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=xxx05177',
 		//友链
         friendLink: [
             {
                 title: '文海鸥原创音乐酷狗网',
-                desc: 'Enjoy when you can, and endure when you must.',
-                email: 'xxx@qq.com',
+                desc: '文海鸥原创音乐网易云',
+                email: '478346839@qq.com',
                 link: 'https://www.it235.com'
             },
             {
                 title: '文海鸥原创音乐网易云',
-                desc: '君哥的课堂',
+                desc: '文海鸥原创音乐网易云',
                 avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
                 link: 'https://how.ke.qq.com/'
             },
