@@ -54,6 +54,29 @@ module.exports = {
 	'vuepress-plugin-code-copy':{
 		//一键复制代码
 	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	'@vuepress-reco/vuepress-plugin-bgm-player':{
 		autoShrink: {
 			type: true
@@ -98,4 +121,6 @@ module.exports = {
         email: "478346839@mail.com", //email地址
 		wechatQrcodeTitle : '微信扫一扫：分享', // 微信二维码提示文字
       },
+
+    
 }
