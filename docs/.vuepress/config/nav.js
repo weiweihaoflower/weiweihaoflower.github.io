@@ -6,6 +6,12 @@ module.exports = [
         text: '前端技术分类', link: '/技术文章/', icon: 'reco-api',
         items: [
             {
+				text: 'javascript',
+				items: [
+					{text: 'javascript', link: '/技术文章/javascript/javascript'},
+				]
+			},
+            {
 				text: 'vue.js',
 				items: [
 					{text: 'vue2.0', link: '/技术文章/vue2.0/vue2.0'},
@@ -38,7 +44,7 @@ module.exports = [
     {
         text: '工具下载', link: '/工具/', icon: 'reco-faq',
         items: [
-			{text: '工具下载', link: '/工具下载/life'},
+			{text: '前端工具', link: '/工具下载/life'},
         ]
     },
     {

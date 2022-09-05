@@ -19,7 +19,7 @@ module.exports = {
 		["link", { rel: "stylesheet", href: "/css/style.css" }],//显示nav小logo
 		["script", { charset: "utf-8", src: "/js/custom.js" }],//加载右侧菜单栏图片
         // 百度统计
-        /*
+        
         ['script', {}, `
             var _hmt = _hmt || [];
             (function() {
@@ -29,7 +29,7 @@ module.exports = {
                 s.parentNode.insertBefore(hm, s);
             })();
         `],
-        */
+        
     ],
     theme: 'reco',
     themeConfig: {
@@ -41,28 +41,28 @@ module.exports = {
             //     location: 2, // 在导航栏菜单中所占的位置，默认2
             //     text: '分类' // 默认 “分类”
             // },
-            tag: {
-                location: 3, // 在导航栏菜单中所占的位置，默认3
-                text: '标签' // 默认 “标签”
-            }
+            // tag: {
+            //     location: 3, // 在导航栏菜单中所占的位置，默认3
+            //     text: '标签' // 默认 “标签”
+            // }
         },
 
 
         // 评论qu
-        // valineConfig: {
-        //     // your appId
-        //     appId: 'AwhnPnTxxzGzoHsz',
-        //     // your appKey
-        //     appKey: '0M6f1PazzzalVIukU',
-        //     recordIP:true,
-        //     placeholder:'来都来了，冒个泡再走呗...',
-        //     visitor:true,
-        // },
+        valineConfig: {
+            // your appId
+            appId: 'AwhnPnTxxzGzoHsz',
+            // your appKey
+            appKey: '0M6f1PazzzalVIukU',
+            recordIP:true,
+            placeholder:'来都来了，冒个泡再走呗...',
+            visitor:true,
+        },
 
 
         authorAvatar: '/avatar.png',
         // 最后更新时间
-        lastUpdated: '2021-04-07', // string | boolean
+        lastUpdated: '2022-04-07', // string | boolean
         //repo: 'it235',
         // 如果你的文档不在仓库的根部
         //docsDir: 'docs',

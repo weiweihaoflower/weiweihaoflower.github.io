@@ -59,24 +59,6 @@ module.exports = {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	'@vuepress-reco/vuepress-plugin-bgm-player':{
 		autoShrink: {
 			type: true
