@@ -37,7 +37,21 @@ module.exports = [
                     {text: 'koa', link: '/技术文章/node.js/koa'},
 				]
 			},
+            {
+				text: 'nuxt.js',
+				items: [
+					{text: 'nuxt.js', link: '/技术文章/nuxt.js/nuxt.js'},
+				]
+			},
 
+        ]
+    },
+
+  
+    {
+        text: '比较好的教学视频整理', link: '/教学视频/', icon: 'reco-faq',
+        items: [
+			{text: '教学视频', link: '/教学视频/life'},
         ]
     },
   
