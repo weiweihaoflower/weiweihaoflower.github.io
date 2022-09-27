@@ -65,11 +65,15 @@ module.exports = [
         text: '前端导航', icon: 'reco-blog',
         items: [
             {text: '码云gitee', link: 'https://gitee.com/flower-wei', icon: 'reco-blog'},
+            {text: '技术社区', link: 'https://www.coderutil.com/', icon: 'reco-blog'},
             {text: '我的掘金博客主页', link: 'https://juejin.cn/user/2542518622493949', icon: 'reco-blog'},
 			{text: '我的CSDN博客主页', link: 'https://blog.csdn.net/weixin_50379372?spm=1010.2135.3001.5343', icon: 'reco-bilibili'},
             {text: '现代javascript教程', link: 'https://zh.javascript.info/', icon: 'reco-bilibili'},
             {text: 'vue2.0官网', link: 'https://v2.cn.vuejs.org/', icon: 'reco-bilibili'},
             {text: 'vue3.0官网', link: 'https://cn.vuejs.org/', icon: 'reco-bilibili'},
+            {text: 'three.js3D数字展厅快速生成', link: 'https://www.huizhanonline.com/show', icon: 'reco-bilibili'}, 
+            {text: 'three.js模型下载网站', link: 'https://sketchfab.com/', icon: 'reco-bilibili'}, 
+            {text: 'three.js模型下载网站', link: 'https://sketchfab.com/', icon: 'reco-bilibili'},         
             {text: 'elementui官网', link: 'https://element.eleme.cn/#/zh-CN', icon: 'reco-bilibili'},
             {text: 'react官网', link: 'https://react.docschina.org/', icon: 'reco-bilibili'},
             {text: 'ant.design官网', link: 'https://ant.design/index-cn', icon: 'reco-bilibili'},
@@ -80,7 +84,7 @@ module.exports = [
             {text: 'TypeScript官网', link: 'https://www.tslang.cn/docs/home.html', icon: 'reco-bilibili'},
             {text: 'iconfont图标库', link: 'https://www.iconfont.cn/', icon: 'reco-bilibili'},
             {text: '在线ps工具', link: 'https://www.uupoop.com/#/', icon: 'reco-bilibili'}
-            
+          
            
         ]
     },/**/

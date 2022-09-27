@@ -49,15 +49,15 @@ module.exports = {
 
 
         // 评论qu
-        valineConfig: {
-            // your appId
-            appId: 'AwhnPnTxxzGzoHsz',
-            // your appKey
-            appKey: '0M6f1PazzzalVIukU',
-            recordIP:true,
-            placeholder:'来都来了，冒个泡再走呗...',
-            visitor:true,
-        },
+        // valineConfig: {
+        //     // your appId
+        //     appId: 'AwhnPnTxxzGzoHsz',
+        //     // your appKey
+        //     appKey: '0M6f1PazzzalVIukU',
+        //     recordIP:true,
+        //     placeholder:'来都来了，冒个泡再走呗...',
+        //     visitor:true,
+        // },
 
 
         authorAvatar: '/avatar.png',
