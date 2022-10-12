@@ -49,11 +49,18 @@ module.exports = [
 
   
     {
-        text: '比较好的教学视频整理', link: '/教学视频/', icon: 'reco-faq',
+        text: '教学视频整理', link: '/教学视频/', icon: 'reco-faq',
         items: [
 			{text: '教学视频', link: '/教学视频/life'},
         ]
     },
+      {
+        text: '优秀项目整理', link: '/优秀项目/', icon: 'reco-faq',
+        items: [
+			{text: '优秀项目', link: '/优秀项目/life'},
+        ]
+    },
+  
   
     {
         text: '工具下载', link: '/工具/', icon: 'reco-faq',
